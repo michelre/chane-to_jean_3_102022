@@ -1,0 +1,22 @@
+@use "../utils/variables";
+.header {
+    text-align: center;
+    &__logo {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    &__location {
+        background-color: $background-color-3;
+        display: flex;
+        justify-content:center;
+        &__icon{
+            padding-top: 1rem;
+        }
+        &__text{
+            padding-left: 1rem;
+            font-weight: 500;
+        }
+    }
+}
