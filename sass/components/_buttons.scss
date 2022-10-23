@@ -1,0 +1,9 @@
+
+.btn {
+    color: $button-text-color;
+    padding: 1rem;
+    border-radius: 40px;
+    border: 0;
+    background: linear-gradient($secondary-colour,$primary-colour);
+    @include box-shadow;
+}

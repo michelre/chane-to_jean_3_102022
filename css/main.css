@@ -32,7 +32,7 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0 0;
 }
 
 /* Grouping content
@@ -308,6 +308,15 @@ template {
   display: none;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
 body {
   max-width: 768px;
   margin-inline: auto;
@@ -320,26 +329,52 @@ main {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 .header {
   text-align: center;
 }
 .header__logo {
-  width: 50%;
+  width: 45%;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
 .header__location {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #EAEAEA;
   display: flex;
   justify-content: center;
 }
-.header__location__icon {
-  padding-top: 1rem;
-}
 .header__location__text {
   padding-left: 1rem;
-  font-weight: 500;
+}
+.header__calltoaction {
+  background-color: #F7F7F7;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.header__calltoaction__title {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 1rem;
+}
+.header__calltoaction__byline {
+  font-weight: 300;
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.btn {
+  color: white;
+  padding: 1rem;
+  border-radius: 40px;
+  border: 0;
+  background: linear-gradient(#FF79DA, #9356DC);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }/*# sourceMappingURL=main.css.map */
