@@ -332,7 +332,7 @@ body {
   font-weight: 500;
 }
 
-h1 {
+h1, h2 {
   font-size: 1.5rem;
 }
 
@@ -370,6 +370,21 @@ h1 {
   padding: 0 1.5rem 2rem 1.5rem;
 }
 
+.fonctionnement-section {
+  padding: 3rem 0;
+}
+.fonctionnement-section__title {
+  padding-bottom: 1.5rem;
+}
+.fonctionnement-section__cards {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto;
+  row-gap: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .btn {
   color: white;
   padding: 1rem;
@@ -377,4 +392,29 @@ h1 {
   border: 0;
   background: linear-gradient(#FF79DA, #9356DC);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fonctionnement-section__cards__card {
+  display: flex;
+  background-color: #F7F7F7;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fonctionnement-section__cards__card__number {
+  position: relative;
+  right: 2.15rem;
+  width: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #9356DC;
+  padding: 0.15rem;
+  border-radius: 50%;
+  font-weight: 400;
+}
+.fonctionnement-section__cards__card__icon {
+  color: #7E7E7E;
+  margin-left: -1rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
 }/*# sourceMappingURL=main.css.map */

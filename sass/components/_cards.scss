@@ -1,0 +1,27 @@
+.fonctionnement-section__cards__card {
+    display: flex;
+    background-color: $background-color-2;
+    padding: 1.5rem;
+    border-radius: 20px;
+    @include box-shadow;
+   
+
+    &__number {
+        position: relative;
+        right: 2.15rem;
+        width: 1rem;
+        text-align: center;
+        color: $button-text-color;
+        background-color: $primary-colour;
+        padding: 0.15rem;
+        border-radius: 50%;
+        font-weight: 400;
+    }
+
+    &__icon {
+       color: $fonctionnement-card-icon-color;
+       margin-left: -1rem;
+       padding-right: 2rem;
+       padding-top: 0.5rem;
+    }
+}
