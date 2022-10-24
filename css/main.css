@@ -385,7 +385,7 @@ h1, h2 {
 }
 .fonctionnement-section__cards {
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
   row-gap: 1rem;
   padding-left: 0.75rem;
@@ -406,7 +406,7 @@ h1, h2 {
 
 .restaurants-cards {
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
   row-gap: 1rem;
 }
@@ -453,7 +453,7 @@ h1, h2 {
 }
 .menu__section__cards {
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
   row-gap: 0.75rem;
   padding-top: 1rem;
