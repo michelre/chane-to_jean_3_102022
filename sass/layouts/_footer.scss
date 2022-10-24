@@ -1,0 +1,35 @@
+.footer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+    
+
+    a {
+        color: $footer-text-color;
+    }
+
+    &__container {
+        padding-left: 1rem;
+
+
+        &__title {
+            font-family: $logo-title-font;
+            font-size: 1rem;
+            padding-bottom: 0.5rem;
+        }
+
+        &__list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-weight: 400;
+
+            &__logo {
+                padding-right: 1em;
+            }
+        }
+    }
+}
+

@@ -522,4 +522,32 @@ h1, h2 {
 img[src="images/restaurants/lanote-image.jpg"] {
   -o-object-position: 50% 62%;
      object-position: 50% 62%;
+}
+
+.footer {
+  background-color: #353535;
+  color: #FFFFFF;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  line-height: 1.5;
+}
+.footer a {
+  color: #FFFFFF;
+}
+.footer__container {
+  padding-left: 1rem;
+}
+.footer__container__title {
+  font-family: "Shrikhand", cursive;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+.footer__container__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+.footer__container__list__logo {
+  padding-right: 1em;
 }/*# sourceMappingURL=main.css.map */
