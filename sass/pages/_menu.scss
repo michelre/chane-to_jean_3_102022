@@ -11,15 +11,48 @@
         z-index: 1;
         position: relative;
         top: -2rem;
-    
+
         &__title {
             font-family: $logo-title-font;
             font-size: 1.5rem;
         }
-    
+
         &__heart-logo {
             padding-top: 0.75rem;
+
         }
-}
+    }
+
+    &__section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+
+        &__title {
+            font-size: 1rem;
+            font-weight: 300;
+            position: relative;
+        }
+
+        &__title:after {
+            content: "";
+            position: absolute;
+            width: 2.5rem;
+            height: 1px;
+            bottom: -0.4rem;
+            left: 0;
+            border-bottom: 3px solid $tertiary-colour;
+        }
+
+        &__cards {
+            display: grid;
+            grid-template-columns: 1;
+            grid-template-rows: auto;
+            row-gap: 0.75rem;
+            padding-top: 1rem;
+        }
+    }
+
 
 }
+

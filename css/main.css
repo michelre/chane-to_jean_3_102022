@@ -432,6 +432,32 @@ h1, h2 {
 .menu__title-container__heart-logo {
   padding-top: 0.75rem;
 }
+.menu__section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+.menu__section__title {
+  font-size: 1rem;
+  font-weight: 300;
+  position: relative;
+}
+.menu__section__title:after {
+  content: "";
+  position: absolute;
+  width: 2.5rem;
+  height: 1px;
+  bottom: -0.4rem;
+  left: 0;
+  border-bottom: 3px solid #99E2D0;
+}
+.menu__section__cards {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto;
+  row-gap: 0.75rem;
+  padding-top: 1rem;
+}
 
 .btn {
   color: white;
@@ -510,6 +536,30 @@ h1, h2 {
 img[src="images/restaurants/lanote-image.jpg"] {
   -o-object-position: 50% 62%;
      object-position: 50% 62%;
+}
+
+.dish-card {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 3.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.75rem;
+}
+.dish-card__title {
+  font-weight: 500;
+}
+.dish-card__body {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+.dish-card__body__byline {
+  font-weight: 300;
+}
+.dish-card__body__price {
+  font-weight: 500;
+  padding-right: 1.5rem;
 }
 
 .footer {

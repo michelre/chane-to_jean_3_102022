@@ -69,6 +69,36 @@
     }
 }
 
+// specific card image file positioning
+
 img[src="images/restaurants/lanote-image.jpg"] {
     object-position: 50% 62%;
+}
+
+.dish-card {
+    background-color: $background-colour-1;
+    border-radius: 15px;
+    @include box-shadow;
+    height: 3.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.75rem;
+
+&__title {
+    font-weight: $bolder-font-weight;
+}
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        line-height: 1.5;
+
+        &__byline {
+            font-weight: $light-font-weight;
+        }
+
+        &__price {
+            font-weight: $bolder-font-weight;
+            padding-right: 1.5rem;
+        }
+    }
 }
