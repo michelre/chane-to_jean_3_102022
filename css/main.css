@@ -458,6 +458,10 @@ h1, h2 {
   row-gap: 0.75rem;
   padding-top: 1rem;
 }
+.menu__place-order {
+  padding-bottom: 2rem;
+  text-align: center;
+}
 
 .btn {
   color: white;
@@ -466,6 +470,10 @@ h1, h2 {
   border: 0;
   background: linear-gradient(#FF79DA, #9356DC);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn--wide {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .fonctionnement-section__cards__card {

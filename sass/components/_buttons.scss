@@ -6,4 +6,8 @@
     border: 0;
     background: linear-gradient($secondary-colour,$primary-colour);
     @include box-shadow;
+    &--wide {
+     padding-left: 2.5rem;
+     padding-right: 2.5rem;
+    }
 }
