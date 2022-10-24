@@ -469,11 +469,16 @@ h1, h2 {
   border-radius: 40px;
   border: 0;
   background: linear-gradient(#FF79DA, #9356DC);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
 }
 .btn--wide {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+.btn:hover {
+  filter: brightness(120%);
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.35);
 }
 
 .fonctionnement-section__cards__card {
@@ -481,7 +486,7 @@ h1, h2 {
   background-color: #F7F7F7;
   padding: 1.5rem;
   border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
 }
 .fonctionnement-section__cards__card__number {
   position: relative;
@@ -504,7 +509,7 @@ h1, h2 {
 .restaurant-card {
   height: 250px;
   border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 .restaurant-card__image {
@@ -549,7 +554,7 @@ img[src="images/restaurants/lanote-image.jpg"] {
 .dish-card {
   background-color: #FFFFFF;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   height: 3.5rem;
   padding-left: 0.5rem;
   padding-top: 0.75rem;

@@ -1,13 +1,22 @@
-
 .btn {
     color: $button-text-color;
     padding: 1rem;
     border-radius: 40px;
     border: 0;
-    background: linear-gradient($secondary-colour,$primary-colour);
+    background: linear-gradient($secondary-colour, $primary-colour);
     @include box-shadow;
+    transition: all .5s;
+
     &--wide {
-     padding-left: 2.5rem;
-     padding-right: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
+
+    &:hover {
+        filter: brightness(120%);
+        @include box-shadow--hover;
+    }
+
+    
 }
+
