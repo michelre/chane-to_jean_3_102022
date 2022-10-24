@@ -1,49 +1,6 @@
 @use "../utils/variables";
 @use "../utils/mixins";
 
-.header {
-    text-align: center;
-
-    &__logo {
-        width: 45%;
-        margin: 0 auto;
-        padding-top: 1.5rem;
-        padding-bottom: 1rem;
-    }
-
-    &__location {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        background-color: $background-color-3;
-        display: flex;
-        justify-content: center;
-
-        &__text {
-            padding-left: 1rem;
-        }
-    }
-
-    &__calltoaction {
-        background-color: $background-color-2;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-
-        &__title {
-            padding-left: 4rem;
-            padding-right: 4rem;
-            padding-bottom: 1rem;
-        }
-
-        &__byline {
-            font-weight: $light-font-weight;
-            padding: 0 1.5rem 2rem 1.5rem;
-        }
-
-
-    }
-
-}
-
 .fonctionnement-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
