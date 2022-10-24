@@ -411,6 +411,28 @@ h1, h2 {
   row-gap: 1rem;
 }
 
+.menu {
+  background-color: #F7F7F7;
+}
+.menu__title-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F7F7F7;
+  padding: 2rem 2rem 0 1rem;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  z-index: 1;
+  position: relative;
+  top: -2rem;
+}
+.menu__title-container__title {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.5rem;
+}
+.menu__title-container__heart-logo {
+  padding-top: 0.75rem;
+}
+
 .btn {
   color: white;
   padding: 1rem;
@@ -569,22 +591,4 @@ img[src="images/restaurants/lanote-image.jpg"] {
 }
 .menu__header__image {
   width: 100%;
-}
-.menu__header__title-container {
-  display: flex;
-  justify-content: space-between;
-  background-color: #F7F7F7;
-  padding: 2rem 2rem 2rem 1rem;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  z-index: 1;
-  position: relative;
-  top: -2rem;
-}
-.menu__header__title-container__title {
-  font-family: "Shrikhand", cursive;
-  font-size: 1.5rem;
-}
-.menu__header__title-container__heart-logo {
-  padding-top: 0.75rem;
 }/*# sourceMappingURL=main.css.map */

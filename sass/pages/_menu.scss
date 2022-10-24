@@ -1,0 +1,25 @@
+.menu {
+    background-color: $background-color-2;
+
+    &__title-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: $background-color-2;
+        padding: 2rem 2rem 0 1rem;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        z-index: 1;
+        position: relative;
+        top: -2rem;
+    
+        &__title {
+            font-family: $logo-title-font;
+            font-size: 1.5rem;
+        }
+    
+        &__heart-logo {
+            padding-top: 0.75rem;
+        }
+}
+
+}
