@@ -4,7 +4,7 @@
     padding: 1.5rem;
     border-radius: 20px;
     @include box-shadow;
-
+    transition: all 0.5s;
 
     &__number {
         position: relative;
@@ -24,6 +24,15 @@
         padding-right: 2rem;
         padding-top: 0.5rem;
     }
+
+    &:hover {
+        background-color: scale-color($primary-colour, $lightness: +90%);
+    }
+
+    &:hover .fonctionnement-section__cards__card__icon{ 
+        color: $primary-colour;
+    }
+
 }
 
 .restaurant-card {
@@ -54,7 +63,6 @@
         padding: 0.25rem;
         background-color: $tertiary-colour;
         color: darken($color: $tertiary-colour, $amount: 40)
-   
     }
 
     &__body {
@@ -64,6 +72,7 @@
         padding-right: 2rem;
         justify-content: space-between;
     }
+
     &__heart-logo {
         padding-top: 1rem;
     }
@@ -83,9 +92,9 @@ img[src="images/restaurants/lanote-image.jpg"] {
     padding-left: 0.5rem;
     padding-top: 0.75rem;
 
-&__title {
-    font-weight: $bolder-font-weight;
-}
+    &__title {
+        font-weight: $bolder-font-weight;
+    }
 
     &__body {
         display: flex;

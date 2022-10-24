@@ -487,6 +487,7 @@ h1, h2 {
   padding: 1.5rem;
   border-radius: 20px;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
 }
 .fonctionnement-section__cards__card__number {
   position: relative;
@@ -504,6 +505,12 @@ h1, h2 {
   margin-left: -1rem;
   padding-right: 2rem;
   padding-top: 0.5rem;
+}
+.fonctionnement-section__cards__card:hover {
+  background-color: #f4eefc;
+}
+.fonctionnement-section__cards__card:hover .fonctionnement-section__cards__card__icon {
+  color: #9356DC;
 }
 
 .restaurant-card {
