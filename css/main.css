@@ -479,6 +479,7 @@ h1, h2 {
 .btn:hover {
   filter: brightness(120%);
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.35);
+  cursor: pointer;
 }
 
 .fonctionnement-section__cards__card {

@@ -15,6 +15,7 @@
     &:hover {
         filter: brightness(120%);
         @include box-shadow--hover;
+        cursor: pointer;
     }
 
     
