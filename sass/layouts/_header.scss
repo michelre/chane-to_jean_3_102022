@@ -44,9 +44,9 @@
     text-align: center;
 
     &__return-icon {
-        position: absolute;
-        top: 2.5rem;
-        left: 2rem;
+        position: relative;
+        bottom: 1.5rem;
+        right: 5rem;
     }
 
     &__logo {

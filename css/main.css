@@ -648,9 +648,9 @@ img[src="images/restaurants/lanote-image.jpg"] {
   text-align: center;
 }
 .menu__header__return-icon {
-  position: absolute;
-  top: 2.5rem;
-  left: 2rem;
+  position: relative;
+  bottom: 1.5rem;
+  right: 5rem;
 }
 .menu__header__logo {
   width: 45%;
