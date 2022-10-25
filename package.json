@@ -1,0 +1,24 @@
+{
+  "name": "chane-to_jean_3_102022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass sass/main.scss:css/main.css --watch",
+    "build": "sass sass/main.scss:css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanchaneto/chane-to_jean_3_102022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanchaneto/chane-to_jean_3_102022/issues"
+  },
+  "homepage": "https://github.com/jeanchaneto/chane-to_jean_3_102022#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}

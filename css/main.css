@@ -81,8 +81,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -523,19 +522,18 @@ h1, h2 {
 .restaurant-card__image {
   height: 184px;
   overflow: hidden;
+  position: relative;
 }
 .restaurant-card__image > img {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 50% 100%;
-     object-position: 50% 100%;
+  object-fit: cover;
+  object-position: 50% 100%;
 }
 .restaurant-card__badge {
-  position: relative;
-  bottom: 90%;
-  left: 70%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
   z-index: 1;
   width: 86px;
   text-align: center;
@@ -555,8 +553,7 @@ h1, h2 {
 }
 
 img[src="images/restaurants/lanote-image.jpg"] {
-  -o-object-position: 50% 62%;
-     object-position: 50% 62%;
+  object-position: 50% 62%;
 }
 
 .dish-card {
@@ -662,4 +659,6 @@ img[src="images/restaurants/lanote-image.jpg"] {
 }
 .menu__header__image {
   width: 100%;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
